@@ -1,0 +1,177 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<body>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="media\images\homeblog2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Welcome to NepBlogs </h2>
+              <p>Web Application Security Development and Trends</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container my-4">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">Introduction</strong>
+                <h3 class="mb-0"> Startup Status</h3>
+                <div class="mb-1 text-muted">Nov 12</div>
+                <p class="card-text mb-auto">Find what web applications are and how secure and important are web apps in todays date.
+                </p>
+                <a href="{% url 'category-list' %}" class="stretched-link">Click to Read Blog Posts</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250"
+                  src="media\images\sartup status.png" alt="">
+    
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Guide</strong>
+                <h3 class="mb-0"> Startup Problems </h3>
+                <div class="mb-1 text-muted">Nov 11</div>
+                <p class="mb-auto">Know about the OWASP top ten vulnerabilities across the internet and how its information and awareness has helped minimize risks in organizations.
+                  content.</p>
+                <a href="{% url 'category-list' %}" class="stretched-link">Click to Read Blog Posts</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250"
+                  src="media\images\istockphoto-537331500-170667a.jpg" alt="">
+                <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+    
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">Implementation</strong>
+                <h3 class="mb-0">OWASP for Startups</h3>
+                <div class="mb-1 text-muted">Nov 12</div>
+                <p class="card-text mb-auto">The blog also highlgihts how OWASP knowledge is being used in Startups to secure their web apps.</p>
+                <a href="{% url 'category-list' %}" class="stretched-link">Click to Read Blog Posts</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250"
+                  src="media\images\istockphoto-537331500-170667a.jpg" alt="">
+    
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Learn</strong>
+                <h3 class="mb-0"> Startup Measures</h3>
+                <div class="mb-1 text-muted">Nov 11</div>
+                <p class="mb-auto"> Security measures and prevention steps to tackle web application risks. Awareness for Start-ups
+                </p>
+                <a href="#" class="stretched-link">Click to Read Blog Posts</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250"
+                  src="media\images\istockphoto-537331500-170667a.jpg" alt="">
+                <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+    
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container my-4">
+
+          <div class="row featurette d-flex justify-content-center align-items-center">
+              <div class="col-md-7 ">
+                  <h2 class="featurette-heading"> Web App Security <span class="text-muted"> Used all over the world
+                          </span></h2>
+                  <p class="lead">A web application is application software that runs on a web server, 
+                      unlike computer-based software programs that are run locally on the operating system of the device....</p>
+              </div>
+              <div class="col-md-5 ">
+                  <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+                  <img src="https://source.unsplash.com/500x500/?techie,person" class="img-fluid" alt="">
+              </div>
+          </div>
+  
+          <div class="row featurette my-4 d-flex justify-content-center align-items-center">
+              <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading">OWASP and its top ten vulnerabilities</h2> <span class="text-muted"> Open Source Web Application Project
+                      </span></h2>
+              <p class="lead">The Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, 
+                  tools, and technologies in the field of web application security.</p>
+          </div>
+              <div class="col-md-5 order-md-1">
+                  <img src="https://source.unsplash.com/450x500/?techie,phones" class="img-fluid" alt="">
+                <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        
+              </div>
+          </div>
+  
+          <div class="row featurette d-flex justify-content-center align-items-center">
+              <div class="col-md-7">
+                  <h2 class="featurette-heading">OWASP for Start-ups<span class="text-muted"> Learn and Implement
+                          </span></h2>
+                  <p class="lead"> Keeping your startup safe from hackers, data loss and breaches takes more than just a firewall and antivirus software. 
+                      Employees need to be aware of the security vulnerabilities and practices. Read more about OWASP for Start-ups
+                  </p>
+              </div>
+              <div class="col-md-5">
+                  <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+                  <img src="https://source.unsplash.com/500x500/?techie,hack" class="img-fluid" alt="">
+              </div>
+          </div>
+  
+      </div>
+  
+      
+      </div>
+<h1> Posts </h1>
+<ul>
+{% for post in object_list %}
+    <li><a href="{% url 'article-detail' post.pk %}"> {{ post.title }}</a> 
+        -<a href="{% url 'category' post.category|slugify %}"> {{ post.category }} </a>
+        - {{ post.author.first_name }} {{ post.author.last_name}} - 
+        {{ post.post_date }} 
+    <small>
+      
+    {% if user.is_authenticated %}
+        {% if user.id == post.author.id %}
+        - <a href="{% url 'update_post' post.pk %}"> (Edit) </a>
+            <a href="{% url 'delete_post' post.pk %}">(Delete)</a>
+        {% endif %}
+    {% endif %}
+    
+    </small><br/>
+    {{ post.snippet }}
+    </li>
+{% endfor %}
+</ul>
+<footer class="container my-4">
+  <p class="float-end"><a href="#">Back to top</a></p>
+  <p>© Nep-Blogs, Shashwot S Shahi. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+  crossorigin="anonymous"></script>
+
+
+{% endblock %}
+</body>
